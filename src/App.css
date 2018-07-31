@@ -26,3 +26,45 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.scrollBox{
+	overflow: scroll;
+	width:1200px;
+	margin:auto;
+}
+
+.zoomBox{
+	width:1600px;
+	height:500px;
+	overflow:hidden;
+}
+
+.cssZoom{
+	width:400px;
+	height:400px;
+	overflow:hidden;
+	display:table-cell;
+}
+
+.cssZoom iframe{
+	-ms-zoom: 0.5;
+	
+	-moz-transform: scale(0.5);
+	-moz-transform-origin: 0 0;
+	
+	-o-transform: scale(0.5);
+	-o-transform-origin: 0 0;
+	
+	-webkit-transform: scale(0.5);
+	-webkit-transform-origin: 0 0;
+	
+	transform: scale(0.5);
+	transform-origin: 0 0;	
+	
+	border:1px solid #ccc;
+	top:0px;
+	left:0px;
+	
+	width:250%;
+	height:400%;
+}
