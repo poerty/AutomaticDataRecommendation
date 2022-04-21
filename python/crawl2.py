@@ -17,7 +17,7 @@ ntopic = 100
 
 
 def getDaumUrl(category, date):
-    return f'http://media.daum.net/breakingnews/{category}?regDate={date}'
+    return f'https://news.daum.net/breakingnews/{category}?regDate={date}'
 
 
 def getCsvFilename(category):
