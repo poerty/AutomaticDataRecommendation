@@ -69,7 +69,7 @@ def parseNews(news_url):
 
 
 category_list = ['sports']
-date_list = getDateList(date(2018, 1, 1), date(2018, 7, 27))
+date_list = getDateList(date(2022, 1, 1), date(2022, 4, 20))
 
 for category in category_list:
     ddlist = []
