@@ -107,7 +107,7 @@ for category in category_list:
                 continue
             save[topic_list[0][0]].append(info_url_list)
 
-csvfile = getCsvFilename(category)
-with open(csvfile, "w") as output:
-    writer = csv.writer(output, lineterminator='\n')
-    writer.writerows(save)
+    csvfile = getCsvFilename(category)
+    with open(csvfile, "w") as output:
+        writer = csv.writer(output, lineterminator='\n')
+        writer.writerows(save)
